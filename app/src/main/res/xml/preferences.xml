@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="colorfondo_pref"
+        android:title="@string/pref_colorfondoType"
+        android:summary="@string/color_pref_summary"
+        android:entries="@array/pref_colorfondoType_entries"
+        android:entryValues="@array/pref_colorfondoType_values"
+        android:defaultValue="@string/pref_colorfondoType"/>
+    <EditTextPreference
+        android:key="edit_text_preference_dolar_value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/cambio_pref_"
+        android:summary="@string/cambio_pref_summary"
+        />
+
+</PreferenceScreen>

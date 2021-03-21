@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gestion de datos</string>
+    <string name="gestion_de_datos_sonia_p_ez">Sonia Paez.Gestion de Datos</string>
+    <string name="confi">Configuracion</string>
+    <string name="general_settings_tittle">Preferencias generales</string>
+    <string name="general_settings_summary">Aquí se podrá editar el valor del conversor y cambiar el fondo de pantalla</string>
+    <string name="color_pref">Color de Fondo</string>
+    <string name="color_pref_summary">Selecciona el color de fondo que quieres</string>
+    <string name="pref_colorfondoType">Colores de fondo </string>
+    <string name="pref_colorfondoType_dialog_title">Colores de fondo disponibles</string>
+    <string name="pref_colorfondoType_default_value">ColorInicial</string>
+    <string name="pref_colorfondoType_summary">ColorInicial</string>
+    <string name="cambio_pref_">Cambio</string>
+    <string name="cambio_pref_summary">Introduce el cambio</string>
+    <string name="info_pref">Acerca De</string>
+    <string name="info_pref_summary">Informacion de la aplicaion</string>
+    <string name="autor_name">Sonia Páez Romero</string>
+    <string name="d_lares" />
+    <string name="todo" />
+    <string name="labeldolares">Dólares</string>
+    <string name="euros" />
+    <string name="labeleuros">Eutos</string>
+    <string name="euros_a_d_lares">Euros a Dolares</string>
+    <string name="d_lares_aeuros">Dolares a Euros</string>
+    <string name="convertir">convertir</string>
+    <string name="resultado" />
+    <string name="numeroAlarmas"></string>
+    <string name="Alarmasrestante">Alarmas restantes</string>
+    <string name="tiempoREstante">Tiempo restante par la proxima alarma</string>
+    <string name="tiempo" />
+    <string name="comenzar">Comenzar</string>
+    <string name="Añadir">Añadir</string>
+    <string name="Editar">Editar</string>
+    <string name="enterWebsDetails" />
+    <string-array name="pref_colorfondoType_entries">
+        <item>Color Inicial</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo claro</item>
+    </string-array>
+    <string-array name="pref_colorfondoType_values">
+        <item>Color Inicial</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo_claro</item>
+    </string-array>
+
+
+</resources>

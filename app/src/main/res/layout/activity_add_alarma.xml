@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio2.AddAlarma">
+    <EditText
+        android:id="@+id/minutos"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Introduce los minutos"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/minutos" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="149dp"
+        app:layout_constraintTop_toBottomOf="@id/descripcion">
+
+        <RadioButton
+            android:id="@+id/radiosonido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="brightmorning" />
+
+        <RadioButton
+            android:id="@+id/radiosonido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cuckooclock" />
+
+        <RadioButton
+            android:id="@+id/radiosonido3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="earlytwilight" />
+
+        <RadioButton
+            android:id="@+id/radiosonido4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gentlebreeze" />
+
+        <RadioButton
+            android:id="@+id/radiosonido5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sunshower" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAgregarAlarma"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:text="Guardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+        tools:layout_editor_absoluteY="395dp" />
+
+    <Button
+        android:id="@+id/btnCancelarNuevaAlarma"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+        app:layout_constraintStart_toEndOf="@+id/btnAgregarAlarma"
+        tools:layout_editor_absoluteY="395dp" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

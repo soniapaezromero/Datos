@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.gestiondedatos.Ejercicio1.Settings.SettingsFragment"
+        android:title="@string/general_settings_tittle"
+        android:summary="@string/general_settings_summary">
+        <extra android:name="settings"
+            android:value="general"> </extra>
+    </header>
+    <header
+        android:fragment="com.example.gestiondedatos.Ejercicio1.Settings.SettingsFragment"
+        android:title="@string/info_pref"
+        android:summary="@string/info_pref_summary">
+    <extra android:name="settings" android:value="about"> </extra>
+    </header>
+</preference-headers>
